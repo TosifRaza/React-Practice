@@ -1,17 +1,18 @@
 import React from "react";
+import Errormsg from "./Component/Errormsg";
+import Listgroup from "./Component/Listgroup";
+import Hadding from "./Component/Hadding";
+// import 'bootstrap/dist/css/bootstrap.min.css'
 function App(){
-  let Arr=["Mango","Coconut","Apple","Banana","daliya"];
-  return (
-    
-  <React.Fragment>
-    <h1>LIST ITEMS</h1>
-    <ul className="list-group">
-      {
-        Arr.map(item=>  <li key={item} className="list-group-item">{item}</li>)
-      }
-    </ul>
-    
-  </React.Fragment>
+  let Arr=["Mango","Coconut","Apple","Banana","daliya","bird"];
+  return ( 
+  // <React.Fragment>
+  <>
+    <Hadding />
+    <Errormsg Arry={Arr}/>
+    <Listgroup Arry={Arr}/>
+  </>
+  // </React.Fragment>
   )
 }
 export default App

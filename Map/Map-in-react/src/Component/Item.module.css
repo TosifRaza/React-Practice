@@ -1,0 +1,15 @@
+.eichitem{
+   font-size: 25px;
+   height: 50px;
+   font-weight: 600;
+   align-content: center;
+   font-family: 'Times New Roman', Times, serif;
+   /* margin: 10px 0px 5px 0px; */
+   color: rgb(69, 16, 175);
+   background: linear-gradient(0deg, rgb(174, 174, 191), rgb(232, 248, 232) 40%, rgb(245, 209, 209));
+}
+.list_group{
+   margin: 0;
+   padding: 0;
+
+}

@@ -1,0 +1,8 @@
+.main_container{
+   width: 40%;
+   align-items: center;
+   margin: 30px;
+   border-radius: 10px;
+   background: linear-gradient(0deg, rgb(174, 174, 191), rgb(232, 248, 232) 40%, rgb(245, 209, 209));
+   min-width: 50%;
+}

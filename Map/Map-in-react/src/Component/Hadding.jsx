@@ -1,7 +1,8 @@
 import React from 'react'
+import style from './Hadding.module.css'
 const Hadding = () => {
   return (
-   <h1 >LIST ITEMS</h1>
+   <h1 className={style.Heading}>LIST ITEMS</h1>
   )
 }
 
